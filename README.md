@@ -1,24 +1,10 @@
-# wad-ui
+- 安装组件库
+    npm i wad-ui
 
-## Project setup
-```
-npm install
-```
+-  全局导入 wad-ui
+    import WadUI from 'wad-ui';
+    import 'wad-ui/dist/wad-ui.css';
+    Vue.use(WadUI)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-  使用 wad-ui  (ps:使用时将 wad 替换为 apl 使用)
+    <apl-button>点我</apl-button>
